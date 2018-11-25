@@ -9,7 +9,7 @@
         </div>
 
         <div class="background-text">
-          本公司的主营业务是针对高中生升学择校、成人自考择校、出国留学高校选择，提供最新招生信息服务、往年考试题库及真题分析，学习规划、学习方案研发及运营。作为互联网教育开发商，公司是在对教育信息服务方案的技术可行性、商业可行性以及成本预算等进行充分的论证的基础上制订具体的教育信息服务开发计划，组织调研、策划、课程、编辑、美工、教学指导等各种资源完成教育咨询信息创新，并在官方网站提供信息服务及最新文章下载链接，后续对各院校招生政策解读、近几年招收趋势分析、考学题库分析，学习规划指导以及客户服务等。
+          北京喆含文化有限公司是一家以线上推广文化传媒、微博推广方案为信息服务为核心产品，整合多元化企业文化推广服务综合性互联网公司。 公司拥有精英策划、研发、运营团队，以传递各企业推广计划，秉承“多元化文化发展，厚德载物”的经营理念，以优质的产品和服务，提供最完美的体验，且创立了自己的品牌“粉享会”。
          </div>
       </div>
     </div>
@@ -43,13 +43,14 @@
     width: 80%;
     height: 40vw;
     margin: 90px auto 30px;
-    background: url("../assets/image/company.png") 0 0 no-repeat;
+    background: url("../assets/image/company1.jpg") 0 0 no-repeat;
     background-size: 100% 100%;
     text-align: center;
     color: #666;
     /*text-shadow:0 0 10px #333;*/
     .word{
-      width: 900px;
+      padding:30px;
+      /*width: 900px;*/
       overflow: hidden;
     }
     .title{

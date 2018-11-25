@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="logo">
-      <img src="../../assets/image/logo.png" alt="">
+      <img src="../../assets/image/logo1.png" alt="">
     </div>
     <ul>
       <li v-for="(item, index) in routeList" @click="routeTo(item.path)">
@@ -28,12 +28,12 @@
             path: '/',
           },
           {
-            name: '有偿资讯',
+            name: '行业资讯',
             path: '/payNews',
           },
           {
-            name: '公司介绍',
-            path: '/company',
+            name: '粉享干货',
+            path: '/payNews2',
           },
           {
             name: '关于我们',
@@ -73,7 +73,8 @@
     height: 60px;
     line-height: 60px;
     .logo{
-      width: 120px;
+      /*width: 120px;*/
+      width: 85px;
       padding-left: 20px;
       position: absolute;
       top: 0;

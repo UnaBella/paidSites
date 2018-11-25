@@ -7,7 +7,7 @@
     </div>
     <div class="news-list">
 
-      <div class="new" v-for="(item, index) in newsList1" @click="examineNew(item.id)">
+      <div class="new" v-for="(item, index) in newsList" @click="examineNew(item.id)">
         <el-card class="box-card">
         <!--<div class="new-img">-->
           <!--<img :src="item.imgUrl" alt="">-->
@@ -32,20 +32,34 @@
     components:{Header, Footer},
     data(){
       return {
-        newsList1: [
+        newsList: [
           {
             id: 0,
-            title: '网络文化传播中算法的跨国应用',
-            brief: '11月8日上午， “文明互鉴：网上文化交流共享”分论坛如期举行。中央网信办副主任高翔，共青团中央书记处常务书记汪鸿雁，与腾讯公司董事会主席马化腾，知乎创始人兼CEO周源，全国政协委员、霍英东集团副总裁、亚洲电竞协会主席霍启刚，一点资讯总编辑吴晨光等领导、嘉宾悉数到场并发表了主题演讲...',
-            time: '2018-07-31',
-            imgUrl: '',
+            title: '老生常谈的「抗衰老」，你真的了解吗？',
+            brief: '考虑互换性原则，没有特殊造型要求的板都可以互相替换使用，减少了加工次数，减少了装配出错的可能性。同时多种材质配合使用，因材施料，降低成本。',
+            time: '1周前',
+            imgUrl: '../../static/image/news1.png',
           },
           {
             id: 1,
-            title: '看数字王国空间完成Pre-A轮融资，中信文化资本...',
-            brief: '2018年11月7日,北京——以制作创新视觉特效及全球最大虚拟现实(VR)体验服务供应商之一的数字王国集团有限公司(“数字王国”或“集团”,股票代码:547)欣然宣布,集团VR内容分发平台数字王国空间于近日完成Pre-A轮融资,该轮融资由中信出版集团旗下产业投资机构中信文化资本独家战略投资...',
-            time: '2018-06-21',
-            imgUrl: '',
+            title: '身高158，眼袋垂到嘴角，这颜值居然能当时尚博主？',
+            brief: '一个身高只有158cm，眼袋垂到嘴角，脸长得大还老气的姑娘，居然成了火遍全球的时尚博主？这个传奇人物就是Leandra Medine，一起来看她的故事..',
+            time: '2018-10-29',
+            imgUrl: '../../static/image/news2.png',
+          },
+          {
+            id: 2,
+            title: '时尚圈泥石流邓紫棋，如今已经是行走的穿搭教科书',
+            brief: '提到邓紫棋，大家都顺势想到另一个男明星：汪峰。他俩原本没有任何交集，却因为共同热衷于穿皮裤，被紧密联合在一起……然而现在的邓紫棋，无论出席活动还是街拍都成了行走的穿搭模板，今天就让我们一起来看看邓姑娘的穿搭技巧吧',
+            time: '2018-05-17',
+            imgUrl: '../../static/image/news3.png',
+          },
+          {
+            id: 3,
+            title: '论“表情管理”的效应',
+            brief: '提到「表情管理」，第一想到的就是石原里美。十元妹子并非美到人神共愤的地步，有一说一，这样的颜值，在娱乐圈一抓一大把，为什么只有她成了掰弯万千少女的女神？如果说天海佑希是少女们的「唯一指定老公」的话，「唯一指定老婆」非十元其谁？？？',
+            time: '2018-04-31',
+            imgUrl: '../../static/image/news4.png',
           }
         ]
       }
@@ -71,8 +85,8 @@
     margin-top: 3px;
     width: 100%;
     min-width: 900px;
-    height: 42vw;
-    background: url("../assets/image/pnews.png") 0 0 no-repeat;
+    height: 45vw;
+    background: url("../assets/image/pnews2.png") 0 0 no-repeat;
     background-size: 100% 100%;
     text-align: center;
     .background-text{
@@ -87,13 +101,13 @@
     }
   }
   .news-list{
-    /*margin-bottom: 60px;*/
+    margin-bottom: 10px;
     padding: 20px 20px;
     overflow: hidden;
     .new{
       cursor: pointer;
       width: 50%;
-      /*height: 15vw;*/
+      height: 180px;
       float: left;
       padding: 10px;
       overflow: hidden;

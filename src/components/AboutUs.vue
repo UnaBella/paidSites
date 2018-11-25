@@ -7,10 +7,9 @@
     </div>
     <ul>
       <li>联系方式</li>
-      <li>地址：北京市海淀区北太平庄路18号3层3-0316</li>
-      <li>邮编：100088</li>
-      <li>办公电话：010-57123721</li>
-      <li>联系电话：18410032707</li>
+      <li>地址：北京市朝阳区建国路89号华贸4号商务楼503</li>
+      <li>邮编：100025</li>
+      <li>联系电话：010-53309791</li>
     </ul>
     <Footer class="footer"></Footer>
   </div>
@@ -42,11 +41,12 @@
       width: 80%;
       height: 40vw;
       margin: 90px auto 30px;
-      background: url("../assets/image/about.gif") 0 0 no-repeat;
+      background: url("../assets/image/about.jpg") 0 0 no-repeat;
       background-size: 100% 100%;
       text-align: left;
       .background-text{
-        padding-top: 200px;
+        padding-left: 40px;
+        padding-top: 160px;
         color: #000;
         text-shadow:0 0 10px #333;
         font-size: 2em;
@@ -56,10 +56,11 @@
       }
     }
     ul{
+      padding: 12%;
       position: absolute;
       bottom:70px;
-      right: 20px;
-      padding: 20px;
+      left: 20px;
+      /*padding: 20px;*/
       li{
         font-size: 15px;
         &:first-child{

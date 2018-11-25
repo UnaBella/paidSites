@@ -1,5 +1,5 @@
 <template>
-  <div class="common-footer">XXXXXX有限公司 京ICP备18018834号-1</div>
+  <div class="common-footer">北京喆含文化有限公司 京ICP备18047829号</div>
 </template>
 
 <script>
